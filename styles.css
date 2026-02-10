@@ -1,8 +1,8 @@
 :root {
   /* 네이비 & 골드 테마 */
-  --env-color: #142850;   /* 메인: 깊고 푸른 네이비 */
-  --env-side: #1f4068;    /* 그림자: 약간 밝은 네이비 */
-  --env-dark: #0a1525;
+  --env-color: #3b0808;
+  --env-side: #481010;    
+  --env-dark: #290505;
   --letter-bg: #fdfbf7;    /* 상장 종이 색상 (미색) */
   --gold-accent: #daa520;  /* 골드 포인트 */
 }
