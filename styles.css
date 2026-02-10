@@ -399,6 +399,6 @@ body:has(#envelope.open) .envelope-wrapper {
   .certificate-inner h2 { font-size: 1.1rem; margin: 5px 0 15px 0; }
   .message-body p { font-size: 0.9rem; line-height: 1.4; margin-bottom: 8px; }
   .cert-footer { margin-top: 20px; }
-  .signature-block .role { font-size: 0.75rem; }
+  .signature-block .role { font-size: 0.75rem; font-weight: bold;}
   .signature-block .name { font-size: 1rem; font-weight: bold;}
 }
