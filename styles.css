@@ -357,3 +357,55 @@ body:has(#envelope.open) .envelope-wrapper {
     box-shadow: 0 0 40px rgb(218, 165, 32, 0.2);
   }
 }
+
+/* --- styles.css 맨 아래에 추가 (모바일 최적화) --- */
+@media (max-width: 500px) {
+  /* 1. 전체 박스 크기 및 여백 축소 */
+  .letter-content {
+    width: 95%;        /* 가로를 더 넓게 씀 */
+    max-height: 90vh;  /* 세로 공간 확보 */
+    padding: 5px;      /* 테두리 여백 최소화 */
+  }
+
+  .certificate-inner {
+    padding: 15px 10px; /* 안쪽 여백 줄임 */
+  }
+
+  /* 2. 학사모 아이콘 크기 줄임 */
+  .cert-header .icon {
+    font-size: 2rem;   /* 3rem -> 2rem */
+    margin-bottom: 5px;
+  }
+
+  /* 3. 제목 크기 줄임 */
+  .cert-header h1 {
+    font-size: 0.9rem; /* 제목 작게 */
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+  }
+
+  .certificate-inner h2 {
+    font-size: 1.1rem; /* "졸업을 축하합니다" 크기 줄임 */
+    margin: 5px 0 15px 0;
+  }
+
+  /* 4. 본문 글자 크기 및 줄 간격 촘촘하게 */
+  .message-body p {
+    font-size: 0.8rem; /* 본문 글자 작게 */
+    line-height: 1.4;  /* 줄 간격 좁힘 */
+    margin-bottom: 8px; /* 문단 간격 줄임 */
+  }
+
+  /* 5. 아래쪽 서명란 여백 줄임 */
+  .cert-footer {
+    margin-top: 20px;
+  }
+  
+  .signature-block .role {
+    font-size: 0.75rem;
+  }
+  
+  .signature-block .name {
+    font-size: 1rem;
+  }
+}
