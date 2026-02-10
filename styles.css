@@ -379,7 +379,7 @@ body:has(#envelope.open) .envelope-wrapper {
   
   /* 2. '나의 친구~' (수식어) 크기 */
   .signature-block .role { 
-    font-size: 0.75rem; /* 여기를 조절하세요 */
+    font-size: 0.8rem;
   }
   
   /* 3. 이름 크기 */
@@ -397,8 +397,8 @@ body:has(#envelope.open) .envelope-wrapper {
   .cert-header .icon { font-size: 2rem; margin-bottom: 5px; }
   .cert-header h1 { font-size: 0.9rem; margin-bottom: 10px; padding-bottom: 3px; }
   .certificate-inner h2 { font-size: 1.1rem; margin: 5px 0 15px 0; }
-  .message-body p { font-size: 1rem; line-height: 1.4; margin-bottom: 8px; }
+  .message-body p { font-size: 0.9rem; line-height: 1.4; margin-bottom: 8px; }
   .cert-footer { margin-top: 20px; }
   .signature-block .role { font-size: 0.75rem; }
-  .signature-block .name { font-size: 1rem; }
+  .signature-block .name { font-size: 1rem; font-weight: bold;}
 }
