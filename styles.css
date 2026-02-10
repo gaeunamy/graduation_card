@@ -1,14 +1,14 @@
 :root {
   /* 네이비 & 골드 테마 */
-  --env-color: #2c3e50;    /* 차분한 네이비 */
-  --env-side: #34495e;     /* 사이드 음영 */
-  --env-dark: #1a252f;     /* 짙은 네이비 (안쪽/뚜껑) */
+  --env-color: #142850;   /* 메인: 깊고 푸른 네이비 */
+  --env-side: #1f4068;    /* 그림자: 약간 밝은 네이비 */
+  --env-dark: #0a1525;
   --letter-bg: #fdfbf7;    /* 상장 종이 색상 (미색) */
   --gold-accent: #daa520;  /* 골드 포인트 */
 }
 
 body {
-  background-color: #1e1e1e; /* 다크 차콜 (반짝이가 잘 보이는 어두운 배경) */
+  background-color: #0f172a; /* 다크 차콜 (반짝이가 잘 보이는 어두운 배경) */
   display: flex;
   justify-content: center;
   align-items: center;
