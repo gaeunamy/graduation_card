@@ -369,6 +369,23 @@ body:has(#envelope.open) .envelope-wrapper {
     /* 모바일은 작게 유지(0.8)하면서 살짝만 아래로(40px) */
     transform: scale(0.8) translateY(40px);
   }
+  
+  .cert-footer { margin-top: 20px; }
+
+  /* 1. 날짜 크기*/
+  .cert-footer .date { 
+    font-size: 0.8rem; /* 여기 숫자를 조절하세요 */
+  } 
+  
+  /* 2. '나의 친구~' (수식어) 크기 */
+  .signature-block .role { 
+    font-size: 0.75rem; /* 여기를 조절하세요 */
+  }
+  
+  /* 3. 이름 크기 */
+  .signature-block .name { 
+    font-size: 1rem; 
+  }
 
   /* 콘텐츠 최적화 (글자 잘림 방지) */
   .letter-content {
@@ -380,7 +397,7 @@ body:has(#envelope.open) .envelope-wrapper {
   .cert-header .icon { font-size: 2rem; margin-bottom: 5px; }
   .cert-header h1 { font-size: 0.9rem; margin-bottom: 10px; padding-bottom: 3px; }
   .certificate-inner h2 { font-size: 1.1rem; margin: 5px 0 15px 0; }
-  .message-body p { font-size: 0.8rem; line-height: 1.4; margin-bottom: 8px; }
+  .message-body p { font-size: 1rem; line-height: 1.4; margin-bottom: 8px; }
   .cert-footer { margin-top: 20px; }
   .signature-block .role { font-size: 0.75rem; }
   .signature-block .name { font-size: 1rem; }
